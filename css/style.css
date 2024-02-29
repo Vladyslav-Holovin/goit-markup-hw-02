@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:#434455;
+    background-color: #ffffff;
 }
 
 a{
@@ -12,23 +13,13 @@ ul{
     list-style: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+/*Header Start*/
 
-/*Header & Footer Logo Start*/
+.header {}
 
-.header-logo,
-.footer-logo {
+.header-navigation {}
+
+.header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -36,21 +27,11 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-
 }
 
-.header-logo-colored,
-.footer-logo-colored {
+.header-logo-colored{
     color: #4d5ae5;
 }
-
-/*Header & Footer Logo End*/
-
-/*Header Start*/
-
-.header {}
-
-.header-navigation {}
 
 .header-menu-list {}
 
@@ -221,7 +202,17 @@ ul{
 }
 
 .footer-logo {
-    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.footer-logo-colored {
+    color: #4d5ae5;
 }
 
 .footer-text {
