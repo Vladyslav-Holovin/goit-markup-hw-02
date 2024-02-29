@@ -48,11 +48,11 @@ ul{
         color: #404bbf;
 }
 
-.header-address {}
-
-.header-address-list {
+.header-address {
     font-style: normal
 }
+
+.header-address-list {}
 
 .header-address-link {
     font-weight: 400;
